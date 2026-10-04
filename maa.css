@@ -1,0 +1,52 @@
+.container{
+margin: 0 auto;
+width: 1010px;
+height: 6000px;
+}
+.grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px ;
+    gap: 10px;
+    background-color: blanchedalmond;
+display: grid;
+height: 1000px;
+}
+
+body{
+    
+color: rgb(240, 8, 8);
+}
+.blogs{
+    grid-column: 1 / span 4;
+}
+.grid div{
+    padding: 20px;
+}
+.blogs{
+    grid-column: 1 / span 3;
+    
+    grid-template-columns: 1fr 1fr 1fr ;
+    display: grid;
+    
+}
+body{
+    background-color: red;
+}
+
+.blogs .blog img {
+    width: 100%;
+}
+.blogs .blog .title{
+    font-family: "Poppins", sans-serif,
+
+}
+.title{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: #ffa301;
+}
+.blogs .blog .bage-date{
+    display: flex;
+    gap: 15px;
+}
