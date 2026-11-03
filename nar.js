@@ -1,9 +1,6 @@
-
-
-let mark =100
-if (mark >= 50) {
-  console.log("you are pass");
+function greet(name){
+  console.log("Hello, World!"+name);
 }
-else {
-  console.log("you are fail");
-}
+greet("cawaale");
+greet("cabdi");
+greet("cawaale");
